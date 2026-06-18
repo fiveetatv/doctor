@@ -101,8 +101,8 @@ export default function Specialist() {
             <span className="text-slate-500 font-medium">Our Specialist</span>
           </div>
           
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-slate-950 tracking-tight leading-none max-w-4xl mt-2">
-            Dr. Kullok Dash, MD
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-slate-955 tracking-tight leading-none max-w-4xl mt-2">
+            Dr. John Doe, MD
           </h1>
           <p className="text-lg sm:text-xl font-semibold text-violet-600 tracking-tight max-w-2xl">
             Chief Medical Director & Senior Interventional Cardiologist
@@ -150,11 +150,11 @@ export default function Specialist() {
                 <Sparkles className="w-3.5 h-3.5 text-violet-600" />
                 Biography
               </span>
-              <h2 className="text-3xl font-bold text-slate-950 tracking-tight mt-2">
+              <h2 className="text-3xl font-bold text-slate-955 tracking-tight mt-2">
                 A Legacy of Clinical Excellence & Heart Health
               </h2>
               <p className="text-slate-500 text-sm sm:text-base leading-relaxed">
-                Dr. Kullok Dash is a globally recognized pioneer in cardiovascular medicine with over 15 years of clinical and surgical expertise. Renowned for his patient-first approach, he specializes in advanced cardiac diagnostics, cardiovascular intervention therapies, and holistic preventative wellness plans.
+                Dr. John Doe is a globally recognized pioneer in cardiovascular medicine with over 15 years of clinical and surgical expertise. Renowned for his patient-first approach, he specializes in advanced cardiac diagnostics, cardiovascular intervention therapies, and holistic preventative wellness plans.
               </p>
               
               {/* Premium Blockquote */}
@@ -164,7 +164,7 @@ export default function Specialist() {
               </blockquote>
 
               <p className="text-slate-500 text-sm sm:text-base leading-relaxed">
-                Prior to founding Doctor clinic, Dr. Dash was the Associate Professor of Cardiology at leading university research hospitals. He has authored over 45 publications in international medical journals and continues to lead clinical trials for next-generation vascular stents.
+                Prior to founding Doctor clinic, Dr. John Doe was the Associate Professor of Cardiology at leading university research hospitals. He has authored over 45 publications in international medical journals and continues to lead clinical trials for next-generation vascular stents.
               </p>
             </motion.div>
 
@@ -240,7 +240,7 @@ export default function Specialist() {
           {/* RIGHT Column: Card Showcase + Hours (span 5) */}
           <div className="lg:col-span-5 flex flex-col gap-8 items-center lg:items-end w-full lg:sticky lg:top-28">
             
-            {/* The Kullok Dash template card */}
+            {/* The John Doe template card */}
             <motion.div 
               initial={{ opacity: 0, scale: 0.96 }}
               whileInView={{ opacity: 1, scale: 1 }}
@@ -252,8 +252,8 @@ export default function Specialist() {
               {/* Doctor Portrait Container with soft violet-to-pink gradient background */}
               <div className="relative w-full aspect-[4/4.8] rounded-[28px] overflow-hidden bg-gradient-to-b from-[#eedfff] to-[#faf5ff]">
                 <Image
-                  src="/images/doctor_kudak.png"
-                  alt="Kullok Dash"
+                  src="/images/doctor_andrew_premium.png"
+                  alt="Dr. John Doe"
                   fill
                   className="object-cover object-top transition-transform duration-500 group-hover:scale-[1.015]"
                   sizes="(max-width: 768px) 100vw, 450px"
@@ -265,10 +265,10 @@ export default function Specialist() {
               <div className="mt-6 px-3 pb-2 flex flex-col sm:flex-row items-center justify-between gap-4">
                 <div className="text-center sm:text-left">
                   <h3 className="text-2xl font-bold text-slate-900 tracking-tight">
-                    Kullok Dash
+                    Dr. John Doe
                   </h3>
                   <p className="text-sm font-bold text-slate-400 mt-1 uppercase tracking-wider">
-                    Strategic & finance
+                    Chief Cardiologist
                   </p>
                 </div>
 
@@ -343,14 +343,14 @@ export default function Specialist() {
                 
                 <motion.a
                   whileHover={{ x: 2 }}
-                  href="mailto:kullok@doctor.com"
+                  href="mailto:john.doe@doctor.com"
                   className="flex items-center justify-between text-sm text-slate-600 hover:text-violet-600 transition-colors py-1.5 px-3 rounded-2xl bg-slate-50 hover:bg-violet-50/50 border border-slate-100 hover:border-violet-100/30"
                 >
                   <div className="flex items-center gap-3">
                     <span className="w-8 h-8 rounded-full bg-white flex items-center justify-center text-slate-500 shadow-sm border border-slate-100/50">
                       <Mail className="w-3.5 h-3.5 text-violet-500" />
                     </span>
-                    <span className="font-semibold">kullok@doctor.com</span>
+                    <span className="font-semibold">john.doe@doctor.com</span>
                   </div>
                   <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-violet-500 transition-colors" />
                 </motion.a>

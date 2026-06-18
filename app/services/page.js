@@ -97,7 +97,7 @@ export default function Services() {
 
   const testimonials = [
     {
-      text: "The telehealth service at Doctor is incredible. I spoke to Dr. Kudak in under 15 minutes, and she immediately arranged my prescription. Highly professional!",
+      text: "The telehealth service at Doctor is incredible. I spoke to Dr. John Doe in under 15 minutes, and he immediately arranged my prescription. Highly professional!",
       author: "Sarah Jenkins",
       title: "Patient (General Clinic)",
     },
